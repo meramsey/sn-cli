@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/jonhadfield/gosn-v2/cache"
+	"github.com/meramsey/gosn-v2/cache"
 )
 
 func Sync(si cache.SyncInput, useStdErr bool) (so cache.SyncOutput, err error) {

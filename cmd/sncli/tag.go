@@ -5,16 +5,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/meramsey/gosn-v2"
+	"gopkg.in/yaml.v3"
 	"os"
 	"strconv"
 	"strings"
 
 	"github.com/asdine/storm/v3/q"
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
 	sncli "github.com/jonhadfield/sn-cli"
+	"github.com/meramsey/gosn-v2/cache"
 	"github.com/urfave/cli"
-	"gopkg.in/yaml.v2"
 )
 
 func getTagByUUID(sess *cache.Session, uuid string) (tag gosn.Tag, err error) {

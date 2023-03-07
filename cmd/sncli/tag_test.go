@@ -10,9 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
 	sncli "github.com/jonhadfield/sn-cli"
+	"github.com/meramsey/gosn-v2/cache"
 )
 
 var (

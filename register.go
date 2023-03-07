@@ -1,8 +1,6 @@
 package sncli
 
-import (
-	"github.com/jonhadfield/gosn-v2"
-)
+import "github.com/meramsey/gosn-v2"
 
 type RegisterConfig struct {
 	Email     string

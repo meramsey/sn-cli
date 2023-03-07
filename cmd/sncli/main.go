@@ -4,7 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/meramsey/gosn-v2"
 	"golang.org/x/term"
+	"gopkg.in/yaml.v3"
 	"os"
 	"sort"
 	"strconv"
@@ -12,12 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
 	sncli "github.com/jonhadfield/sn-cli"
+	"github.com/meramsey/gosn-v2/cache"
 	"github.com/spf13/viper"
 	"github.com/urfave/cli"
-	"gopkg.in/yaml.v2"
 )
 
 const (

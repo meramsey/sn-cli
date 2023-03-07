@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/meramsey/gosn-v2"
 	"os"
 
-	"github.com/jonhadfield/gosn-v2"
 	"github.com/urfave/cli"
 )
 

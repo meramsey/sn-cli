@@ -4,11 +4,10 @@ import (
 	"encoding/gob"
 	"encoding/json"
 	"fmt"
+	"github.com/meramsey/gosn-v2"
 	"io/ioutil"
 	"os"
 	"strings"
-
-	"github.com/jonhadfield/gosn-v2"
 )
 
 func StringInSlice(inStr string, inSlice []string, matchCase bool) bool {

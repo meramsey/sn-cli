@@ -2,8 +2,8 @@ package sncli
 
 import (
 	"github.com/briandowns/spinner"
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
+	"github.com/meramsey/gosn-v2"
+	"github.com/meramsey/gosn-v2/cache"
 	"os"
 	"time"
 )

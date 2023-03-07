@@ -1,7 +1,6 @@
 package sncli
 
 import (
-	"github.com/jonhadfield/gosn-v2"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

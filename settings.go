@@ -1,8 +1,8 @@
 package sncli
 
 import (
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
+	"github.com/meramsey/gosn-v2"
+	"github.com/meramsey/gosn-v2/cache"
 )
 
 func (i *GetSettingsConfig) Run() (settings gosn.Items, err error) {

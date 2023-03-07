@@ -3,7 +3,7 @@ package sncli
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/jonhadfield/gosn-v2"
+	"github.com/meramsey/gosn-v2"
 	"strings"
 )
 

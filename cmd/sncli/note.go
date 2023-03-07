@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/meramsey/gosn-v2"
+	"gopkg.in/yaml.v3"
 	"io"
 	"io/ioutil"
 	"os"
@@ -14,11 +16,9 @@ import (
 
 	"github.com/asdine/storm/v3/q"
 	"github.com/divan/num2words"
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
 	sncli "github.com/jonhadfield/sn-cli"
+	"github.com/meramsey/gosn-v2/cache"
 	"github.com/urfave/cli"
-	"gopkg.in/yaml.v2"
 )
 
 func getNoteByUUID(sess cache.Session, uuid string) (tag gosn.Note, err error) {

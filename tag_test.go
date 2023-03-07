@@ -1,11 +1,11 @@
 package sncli
 
 import (
+	"github.com/meramsey/gosn-v2"
 	"github.com/stretchr/testify/require"
 	"testing"
 
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
+	"github.com/meramsey/gosn-v2/cache"
 )
 
 func TestAddDeleteTagByTitle(t *testing.T) {

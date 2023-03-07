@@ -2,12 +2,12 @@ package sncli
 
 import (
 	"fmt"
+	"github.com/meramsey/gosn-v2"
 	"sort"
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/jonhadfield/gosn-v2"
-	"github.com/jonhadfield/gosn-v2/cache"
+	"github.com/meramsey/gosn-v2/cache"
 	"github.com/ryanuber/columnize"
 )
 
